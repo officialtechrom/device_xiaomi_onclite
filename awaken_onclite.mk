@@ -16,6 +16,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
+#GApps
+USE_GAPPS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := awaken_onclite
 PRODUCT_DEVICE := onclite
